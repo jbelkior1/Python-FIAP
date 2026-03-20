@@ -8,11 +8,16 @@ print (f"Boas Vindas {nome}, THE FUTURE IS ROCK")
 idade_dia = input("Digite seu dia de nascimento: ")
 idade_mes = input("Digite seu mes de nascimento: : ")
 idade_ano = input("Digite seu ano de nascimento: ")
-numero_soma1 = input("Digite um Número para testar: ")
-numero_soma2 = input("Digite outro Número para testar: ")
 
-print (f"Boas Vindas {nome}, THE FUTURE IS ROCK")
 print (f"Sua idade de nascimento é : {idade_dia}/{idade_mes}/{idade_ano}")
-print (f"Esse é o valor somado: {numero_soma1 + numero_soma2}")
+
+#Desafio 3
+
+numero_soma1 = int(input("Digite um Número para testar: "))
+numero_soma2 = int(input("Digite outro Número para testar: "))
+
+print ("Esse é o valor Somado:")
+print(numero_soma1 + numero_soma2)
+
 
 
